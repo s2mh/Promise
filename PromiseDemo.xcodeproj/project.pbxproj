@@ -13,6 +13,7 @@
 		6AC3B2272202972C00837D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC3B2262202972C00837D76 /* Assets.xcassets */; };
 		6AC3B22A2202972C00837D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AC3B2282202972C00837D76 /* LaunchScreen.storyboard */; };
 		6AC3B22D2202972C00837D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC3B22C2202972C00837D76 /* main.m */; };
+		6AC3B237220297EE00837D76 /* Promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC3B235220297EE00837D76 /* Promise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6AC3B2292202972C00837D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AC3B22B2202972C00837D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AC3B22C2202972C00837D76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AC3B235220297EE00837D76 /* Promise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Promise.m; sourceTree = "<group>"; };
+		6AC3B236220297EE00837D76 /* Promise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Promise.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		6AC3B21C2202972B00837D76 /* PromiseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6AC3B234220297EE00837D76 /* Promise */,
 				6AC3B21D2202972B00837D76 /* AppDelegate.h */,
 				6AC3B21E2202972B00837D76 /* AppDelegate.m */,
 				6AC3B2202202972B00837D76 /* ViewController.h */,
@@ -70,6 +74,15 @@
 			);
 			path = PromiseDemo;
 			sourceTree = "<group>";
+		};
+		6AC3B234220297EE00837D76 /* Promise */ = {
+			isa = PBXGroup;
+			children = (
+				6AC3B236220297EE00837D76 /* Promise.h */,
+				6AC3B235220297EE00837D76 /* Promise.m */,
+			);
+			path = Promise;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -144,6 +157,7 @@
 				6AC3B2222202972B00837D76 /* ViewController.m in Sources */,
 				6AC3B22D2202972C00837D76 /* main.m in Sources */,
 				6AC3B21F2202972B00837D76 /* AppDelegate.m in Sources */,
+				6AC3B237220297EE00837D76 /* Promise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
